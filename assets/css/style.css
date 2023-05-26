@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+body {
+    background-color: #ededed;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #12b0e0;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen {
+    width: 250px;
+}
+
+.navbar a {
+    padding-right: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+.title {
+    font-family: cursive;
+    font-size: 4rem;
+    margin: 2rem;
+}
+
+.profile-photo {
+    width: 300px;
+    margin: 4rem;
+}
+
+.data {
+    font-size: 40px;
+    color: #36c59a;
+}
+
+.fa-solid {
+    margin-top: 60px;
+    font-size: 80px;
+}
+
+.border {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px;
+    margin: 10px;
+}
+
+h2 {
+    margin: 2rem;
+    font-size: 60px;
+}
+
+li  {
+    flex-wrap: wrap;
+    color: #45ce22;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: start;
+    margin: 2rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+p   {
+    flex-wrap: wrap;
+    color: #45ce22;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: start;
+    margin: 2rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.all-body {
+    justify-content: center;
+    text-align: center;
+}
+
+.body-portfolio {
+    border-radius: 11px;
+    box-shadow: 0 3px 10px;
+    margin: 10px;
+    background-color: #b4b4b4;
+}
+
+.title-portfolio {
+    font-family: sans-serif;
+}
+
+.project {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen2 {
+    width: 450px;
+    margin: 30px;
+}
